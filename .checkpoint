@@ -1,9 +1,9 @@
 {
   "version": 1,
   "slug": "vercel-preview-deployments",
-  "step": "created",
-  "completed_specs": [],
-  "pending_specs": ["github-actions-workflow", "playwright-config", "smoke-test", "webhook-bypass-curl"],
+  "step": "deps_written",
+  "completed_specs": ["github-actions-workflow", "playwright-config", "smoke-test", "webhook-bypass-curl"],
+  "pending_specs": [],
   "created_at": "2026-04-16T00:00:00Z",
   "updated_at": "2026-04-16T00:00:00Z"
 }

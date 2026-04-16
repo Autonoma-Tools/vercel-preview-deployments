@@ -1,0 +1,15 @@
+{
+  "name": "vercel-preview-deployments",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Companion code for the Autonoma blog post 'Vercel Preview Deployments: 3 Testing Layers Most Teams Only Half-Build'.",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "bypass:check": "bash examples/protection-bypass.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
